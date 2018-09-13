@@ -27,5 +27,17 @@ public class LoginServlet extends HttpServlet {
         User u = ls.checkLoginService(uname,pwd);
         System.out.println(u);
         //处理相应结果
+        if (u != null){
+            //req.getRequestDispatcher("main").forward(req,resp);
+            req.setAttribute("uname",u.getUname());
+            resp.sendRedirect("main");
+            
+        } else{
+            //使用request对象实现不同servlet的数据流转
+            req.setAttribute("str","用户名或密码错误");
+            //请求转发
+            req.getRequestDispatcher("page").forward(req,resp);
+            return;
+        }
     }
 }
