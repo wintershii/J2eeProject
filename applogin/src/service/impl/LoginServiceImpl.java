@@ -12,4 +12,9 @@ public class LoginServiceImpl implements LoginService {
     public User checkLoginService(String uname, String pwd) {
         return ld.chechLoginDao(uname,pwd);
     }
+
+    @Override
+    public User checkUidService(String uid) {
+        return ld.checkUidDao(uid);
+    }
 }

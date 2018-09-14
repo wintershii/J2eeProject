@@ -14,7 +14,7 @@ public class JDBCUtil {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/servlet?useSSL=false&" +
-                    "serverTimezone=GMT%2B8&characterEncoding=utf-8","root","990708");
+                    "serverTimezone=GMT%2B8&characterEncoding=utf-8&allowPublicKeyRetrieval=true","root","990708");
             return conn;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
