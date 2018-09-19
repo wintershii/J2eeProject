@@ -38,6 +38,7 @@ public class CookieServlet extends HttpServlet {
         resp.getWriter().write("Cookie学习");
             //请求转发
             //重定向
+        req.getSession();
 
     }
 }

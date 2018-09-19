@@ -6,10 +6,7 @@ import service.impl.LoginServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 import java.io.IOException;
 
 @WebServlet(name = "login",urlPatterns = {"/login"})
@@ -35,6 +32,9 @@ public class LoginServlet extends HttpServlet {
             c.setMaxAge(3*24*3600);
 
             resp.addCookie(c);
+            //将数据存储到session对象中
+            HttpSession hs = req.getSession();
+            hs.setAttribute("user",u);
             resp.sendRedirect("main");
 
         } else{

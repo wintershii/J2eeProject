@@ -6,10 +6,7 @@ import service.impl.LoginServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 import java.io.IOException;
 
 /**
@@ -48,8 +45,11 @@ public class CookieServlet extends HttpServlet {
                 LoginService ls = new LoginServiceImpl();
                 User u = ls.checkUidService(uid);
                 if (u != null){
+                    //将用户数据存储到session对象中
+                    HttpSession hs = req.getSession();
+                    hs.setAttribute("user",u);
                     //重定向
-                    resp.sendRedirect("/main");
+                    resp.sendRedirect("main");
                     return;
                 } else {
                     req.getRequestDispatcher("page").forward(req,resp);
