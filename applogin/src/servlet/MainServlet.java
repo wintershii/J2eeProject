@@ -17,6 +17,8 @@ public class MainServlet extends HttpServlet {
         //设置相应编码格式
         resp.setContentType("text/html;charset=utf-8");
         //获取请求信息
+            //获取网页浏览次数
+        int num = (int) this.getServletContext().getAttribute("nums");
         //处理请求信息
         //相应处理结果
         HttpSession hs = req.getSession();
@@ -25,7 +27,8 @@ public class MainServlet extends HttpServlet {
         resp.getWriter().write("<head>");
         resp.getWriter().write("</head>");
         resp.getWriter().write("<body>");
-        resp.getWriter().write("<h3>欢迎" + u.getUname() + "访问学生管理系统");
+        resp.getWriter().write("<h3>欢迎" + u.getUname() + "访问学生管理系统</h3>");
+        resp.getWriter().write("当前网页浏览次数为：" + num);
         resp.getWriter().write("<hr>");
         resp.getWriter().write("<form action='show' method='get'>");
         resp.getWriter().write("<input type='submit' value='查看个人信息'>");

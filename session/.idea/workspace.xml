@@ -7,26 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77a298-59b2-4b36-89c8-2dbe0ceb14fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../applogin/src/servlet/ShowServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GetSessionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ServletContextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SessionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/doc/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../applogin/src/servlet/NumServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../applogin/web/num.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/out/artifacts/applogin_war_exploded/WEB-INF/classes/servlet/CookieServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/out/artifacts/applogin_war_exploded/WEB-INF/classes/servlet/CookieServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/out/artifacts/applogin_war_exploded/WEB-INF/classes/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/out/artifacts/applogin_war_exploded/WEB-INF/classes/servlet/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/out/artifacts/applogin_war_exploded/WEB-INF/classes/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/out/artifacts/applogin_war_exploded/WEB-INF/classes/servlet/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../applogin/out/artifacts/applogin_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/out/artifacts/applogin_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/out/production/applogin/servlet/CookieServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/out/production/applogin/servlet/CookieServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/out/production/applogin/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/out/production/applogin/servlet/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/out/production/applogin/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/out/production/applogin/servlet/MainServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/src/servlet/CookieServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/src/servlet/CookieServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/src/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/src/servlet/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../applogin/src/servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/src/servlet/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cookie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cookie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cookie/out/artifacts/cookie_war_exploded/WEB-INF/classes/servlet/CookieServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cookie/out/artifacts/cookie_war_exploded/WEB-INF/classes/servlet/CookieServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cookie/out/production/cookie/servlet/CookieServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cookie/out/production/cookie/servlet/CookieServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cookie/src/servlet/CookieServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cookie/src/servlet/CookieServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../applogin/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../applogin/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,13 +34,14 @@
     <session id="1886307651">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SessionServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="476">
               <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServletContextTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="531">
               <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -107,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GetSessionServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="62" />
+            <state relative-caret-position="504">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="224">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -172,7 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +196,12 @@
               <item name="session" type="b2602c69:ProjectViewProjectNode" />
               <item name="session" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="session" type="b2602c69:ProjectViewProjectNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,15 +212,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537363035394" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../applogin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -312,17 +314,18 @@
       <workItem from="1537351265847" duration="96000" />
       <workItem from="1537354893687" duration="3885000" />
       <workItem from="1537359827099" duration="2021000" />
+      <workItem from="1537438927666" duration="29000" />
+      <workItem from="1537450581538" duration="93000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11279000" />
+    <option name="totallyTimeSpent" value="11401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="0" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="0" width="1296" height="1000" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1461318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15048544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -332,7 +335,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48852903" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48786128" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6234818" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,13 +365,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -390,9 +386,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/doc/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SessionServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="476">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -400,9 +399,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ServletContextTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="531">
           <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -410,13 +416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/doc/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GetSessionServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="62" />
+        <state relative-caret-position="504">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

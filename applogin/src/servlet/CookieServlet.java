@@ -4,6 +4,7 @@ import pojo.User;
 import service.LoginService;
 import service.impl.LoginServiceImpl;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
@@ -48,6 +49,18 @@ public class CookieServlet extends HttpServlet {
                     //将用户数据存储到session对象中
                     HttpSession hs = req.getSession();
                     hs.setAttribute("user",u);
+                    ServletContext sc = this.getServletContext();
+
+                    if (sc.getAttribute("nums") != null) {
+                        int num = (int) sc.getAttribute("nums");
+                        //自增
+                        num++;
+                        //再次存储到ServletContext中
+                        sc.setAttribute("nums", num);
+                    } else {
+                        sc.setAttribute("nums",1);
+                    }
+
                     //重定向
                     resp.sendRedirect("main");
                     return;
