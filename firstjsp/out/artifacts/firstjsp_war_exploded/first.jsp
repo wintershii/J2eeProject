@@ -12,7 +12,7 @@
     <title>JSP基本语法学习</title>
     <meta charset="utf-8"/>
 </head>
-<body>
+ <body>
     <h3>hhhhh</h3>
     <hr />
     <%
@@ -35,5 +35,20 @@
             System.out.println("全局代码块测试");
         }
     %>
-</body>
 
+    <%--<%@include file="index.jsp" %>--%>
+    <%--<jsp:include page="index.jsp"></jsp:include>--%>
+    <%--<jsp:forward page="forward.jsp">--%>
+        <%--<jsp:param name="str" value="aaa"></jsp:param>--%>
+    <%--</jsp:forward>--%>
+
+    <%
+        //获取请求数据
+        String s = request.getParameter("str");
+    %>
+    <%=s%>
+
+    <a href="a/a.jsp">a.jsp</a>
+ </body>
+
+</html>
