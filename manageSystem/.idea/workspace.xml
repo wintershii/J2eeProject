@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="manageSystem:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62d52824-9d37-4d2c-88ed-4eca4c188bb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/winter/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/winter/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/winter/jdbcutil/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/winter/poju/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/winter/service/UserSerciceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/winter/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/winter/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/kindeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/flash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/plainpaste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/remote_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/wordpaste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/default.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/div.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/dl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/ol.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/p.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/tinymce.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/tinymce.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/ul.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/buttonbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bz00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bz01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bz02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/c01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/c02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/c03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/cbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/clist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/close1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/diskbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fjt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/iadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ibtnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/inputbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/itabbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/itabbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jszc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jtx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/l01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/l02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/l03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/l04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftmenubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lefttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/libg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/light1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/line1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/list.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/list1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/list2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logininfo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logininfo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logininfo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logininfo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginpassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginsj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/navbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/pre.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/px.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/righttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/rlist.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/sub-menu-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/tbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/tcbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/th.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ticon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/toolbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/topbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/topleft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/topright.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ub1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/uew_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/uew_icon_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ulist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/userbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yzmbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/PIE.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/format+zh_CN,default,corechart.I.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.ba-resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.gvChart-1.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.idTabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jsapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/select-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/jquery.gvChart-1.0.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstjsp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstjsp/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="963030885">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="java" value="7" />
+          <entry key="jsp" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="JAVA" value="7" />
+          <entry key="JSP" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="8" />
+          <entry key="java" value="1435" />
+          <entry key="jsp" value="135" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="8" />
+          <entry key="JAVA" value="1435" />
+          <entry key="JSP" value="135" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1456">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/winter/servlet/UserServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1344">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/winter/poju/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1820">
+              <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/winter/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/winter/service/UserSerciceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/winter/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/winter/dao/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/winter/jdbcutil/JDBCUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/winter/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/winter/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/winter/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/winter/service/UserSerciceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/winter/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/winter/poju/User.java" />
+        <option value="$PROJECT_DIR$/src/com/winter/jdbcutil/JDBCUtil.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="width" value="1400" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="winter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="winter" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="winter" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbcutil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="winter" type="462c0819:PsiDirectoryNode" />
+              <item name="poju" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="winter" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="winter" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538020464041" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mirac\GitHub\J2ee\manageSystem\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.0.9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.9" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="manageSystem:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_9_manageSystem" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50825" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="manageSystem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62d52824-9d37-4d2c-88ed-4eca4c188bb1" name="Default Changelist" comment="" />
+      <created>1538013166072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538013166072</updated>
+      <workItem from="1538013169657" duration="6635000" />
+      <workItem from="1538020564763" duration="180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6815000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="0" width="1296" height="1000" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1933657" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.47052023" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008091" side_tool="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32947975" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/winter/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/winter/poju/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1820">
+          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/winter/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/winter/service/UserSerciceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/winter/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/winter/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/winter/jdbcutil/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>manageSystem:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>manageSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
