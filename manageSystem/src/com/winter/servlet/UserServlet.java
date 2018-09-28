@@ -81,6 +81,17 @@ public class UserServlet extends HttpServlet {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        } else {
+            req.setAttribute("flag",0);
+            //请求转发
+            try {
+                req.getRequestDispatcher("/index.jsp").forward(req,resp);
+            } catch (ServletException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return;
         }
 
     }

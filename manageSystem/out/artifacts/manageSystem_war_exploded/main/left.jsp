@@ -58,41 +58,23 @@
 
     <dd>
         <div class="title">
-            <span><img src="../images/leftico01.png" /></span>管理信息
+            <span><img src="../images/leftico01.png" /></span>个人信息
         </div>
         <ul class="menuson">
-
-            <li>
-                <div class="header">
-                    <cite></cite>
-                    <a href="" target="">首页模版</a>
-                    <i></i>
-                </div>
-                <ul class="sub-menus">
-                    <li><a href="javascript:;">文件管理</a></li>
-                    <li><a href="javascript:;">模型信息配置</a></li>
-                    <li><a href="javascript:;">基本内容</a></li>
-                    <li><a href="javascript:;">自定义</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <div class="header">
-                    <cite></cite>
-                    <a href="" target="">数据列表</a>
-                    <i></i>
-                </div>
-                <ul class="sub-menus">
-                    <li><a href="javascript:;">文件数据</a></li>
-                    <li><a href="javascript:;">学生数据列表</a></li>
-                    <li><a href="javascript:;">我的数据列表</a></li>
-                    <li><a href="javascript:;">自定义</a></li>
-                </ul>
-            </li>
-
+            <li><cite></cite><a href="" >查看个人信息</a></li>
+            <li><cite></cite><a href="" >修改密码</a></li>
         </ul>
     </dd>
 
+
+    <dd>
+        <div class="title">
+            <span><img src="../images/leftico01.png" /></span>管理信息
+        </div>
+        <ul class="menuson">
+            <li><cite></cite><a href="" >查看用户信息</a></li>
+        </ul>
+    </dd>
 
 </dl>
 

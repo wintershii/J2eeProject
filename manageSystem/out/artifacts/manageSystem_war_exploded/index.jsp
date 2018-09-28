@@ -48,11 +48,27 @@
 
   <span class="systemlogo"></span>
 
+  <br />
+  <%
+    //声明java代码块进行错误提示语的逻辑校验
+    Object obj = request.getAttribute("flag");
+    if (obj != null){
+  %>
+  <div style="text-align: center">
+    <span style="font-size: 15px;font-weight: bold">用户名或密码错误</span>
+  </div>
+  <%
+    }
+  %>
+
+
+
   <div class="loginbox loginbox1">
 
       <form action="user" method="post">
           <input type="hidden" name="oper" value="login" />
     <ul>
+      <li></li>
       <li><input name="uname" type="text" placeholder="用户名" class="loginuser" /></li>
       <li><input name="pwd" type="password" placeholder="密码" class="loginpwd" /></li>
       <li class="yzm">
