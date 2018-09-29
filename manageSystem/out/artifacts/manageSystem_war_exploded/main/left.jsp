@@ -61,8 +61,8 @@
             <span><img src="../images/leftico01.png" /></span>个人信息
         </div>
         <ul class="menuson">
-            <li><cite></cite><a href="" >查看个人信息</a></li>
-            <li><cite></cite><a href="" >修改密码</a></li>
+            <li><cite></cite><a href="../user/userInfo.jsp" target="rightFrame" >查看个人信息</a></li>
+            <li><cite></cite><a href="../user/pwd.jsp" target="rightFrame">修改密码</a></li>
         </ul>
     </dd>
 
@@ -72,7 +72,7 @@
             <span><img src="../images/leftico01.png" /></span>管理信息
         </div>
         <ul class="menuson">
-            <li><cite></cite><a href="" >查看用户信息</a></li>
+            <li><cite></cite><a href="" target="rightFrame">查看用户信息</a></li>
         </ul>
     </dd>
 

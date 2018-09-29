@@ -17,6 +17,7 @@ import java.io.IOException;
 public class UserServlet extends HttpServlet {
     //声明日志对象
     Logger logger = Logger.getLogger(UserServlet.class);
+    UserService us = new UserSerciceImpl();
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //设置请求编码格式
@@ -32,7 +33,10 @@ public class UserServlet extends HttpServlet {
         } else if ("reg".equals(oper)){
             //调用注册功能
 
-        }  else if ("out".equals(oper)){
+        } else if ("pwd".equals(oper)){
+            //调用修改密码功能
+            userChangePwd(req,resp);
+        } else if ("out".equals(oper)){
             //调用退出功能
             userOut(req,resp);
 
@@ -42,6 +46,17 @@ public class UserServlet extends HttpServlet {
         }
 
             }
+
+    private void userChangePwd(HttpServletRequest req, HttpServletResponse resp) {
+        //获取数据
+        String newPwd = req.getParameter("newPwd");
+        //从session中获取用户信息
+        User u = (User) req.getSession().getAttribute("user");
+        int uid = u.getUid();
+        //处理请求
+        //调用service对象
+        int index = us.userChangePwdService(newPwd,uid);
+    }
 
     private void userOut(HttpServletRequest req, HttpServletResponse resp) {
         //获取session对象
@@ -65,7 +80,7 @@ public class UserServlet extends HttpServlet {
 
         //处理请求信息
             //获取service层对象
-        UserService us = new UserSerciceImpl();
+
             //校验
         User u = us.checkUserLoginService(uname,pwd);
 

@@ -10,4 +10,6 @@ public interface UserService {
      * @return 返回查询到的用户信息
      */
     User checkUserLoginService(String uname, String pwd);
+
+    void userChangePwdService(String newPwd, int uid);
 }

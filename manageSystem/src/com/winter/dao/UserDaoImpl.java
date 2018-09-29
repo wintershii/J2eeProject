@@ -3,10 +3,7 @@ package com.winter.dao;
 import com.winter.jdbcutil.JDBCUtil;
 import com.winter.poju.User;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class UserDaoImpl implements UserDao {
     //根据用户名和密码进行查询
@@ -50,5 +47,20 @@ public class UserDaoImpl implements UserDao {
             }
         }
         return null;
+    }
+
+    //根据用户id修改用户密码
+    @Override
+    public void userChangePwdDao(String newPwd, int uid) {
+        Connection conn = JDBCUtil.getConnection();
+        String sql = "update t_user set pwd = ? where id = ?";
+        try {
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1,newPwd);
+            ps.setInt(2,uid);
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }

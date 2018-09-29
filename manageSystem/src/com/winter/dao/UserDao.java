@@ -10,4 +10,6 @@ public interface UserDao {
      * @return
      */
     User checkUserLoginDao(String uname, String pwd);
+
+    void userChangePwdDao(String newPwd, int uid);
 }

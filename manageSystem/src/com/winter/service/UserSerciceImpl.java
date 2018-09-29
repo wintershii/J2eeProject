@@ -25,4 +25,10 @@ public class UserSerciceImpl implements UserService{
         }
         return u;
     }
+
+    //修改用户密码
+    @Override
+    public void userChangePwdService(String newPwd, int uid) {
+        ud.userChangePwdDao(newPwd,uid);
+    }
 }
