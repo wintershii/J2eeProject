@@ -2,6 +2,10 @@ package com.winter.service;
 
 import com.winter.poju.User;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
+
 public interface UserService {
     /**
      * 校验用户登陆
@@ -11,5 +15,9 @@ public interface UserService {
      */
     User checkUserLoginService(String uname, String pwd);
 
-    void userChangePwdService(String newPwd, int uid);
+    int userChangePwdService(String newPwd, int uid);
+
+    List<User> userShowService();
+
+    int userRegService(User u);
 }

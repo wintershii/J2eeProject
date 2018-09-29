@@ -52,6 +52,8 @@
   <%
     //声明java代码块进行错误提示语的逻辑校验
     Object obj = request.getAttribute("flag");
+    Object pwd = session.getAttribute("pwd");
+    Object reg = session.getAttribute("reg");
     if (obj != null){
   %>
   <div style="text-align: center">
@@ -61,13 +63,34 @@
     }
   %>
 
+  <%
+  if (pwd != null){
+  %>
+  <div style="text-align: center">
+    <span style="font-size: 15px;font-weight: bold">密码修改成功</span>
+  </div>
+  <%
+    }
+    session.removeAttribute("pwd");
+  %>
+
+  <%
+    if (reg != null){
+  %>
+  <div style="text-align: center">
+    <span style="font-size: 15px;font-weight: bold">注册成功</span>
+  </div>
+  <%
+    }
+    session.removeAttribute("reg");
+  %>
 
 
   <div class="loginbox loginbox1">
 
       <form action="user" method="post">
           <input type="hidden" name="oper" value="login" />
-    <ul>
+        <ul>
       <li></li>
       <li><input name="uname" type="text" placeholder="用户名" class="loginuser" /></li>
       <li><input name="pwd" type="password" placeholder="密码" class="loginpwd" /></li>
@@ -75,7 +98,7 @@
         <span><input name="" type="text" value="验证码" onclick="JavaScript:this.value=''"/></span><cite>X3D5S</cite>
       </li>
       <li><input name="" type="submit" class="loginbtn" value="登录"  onclick="javascript:window.location='main.html'"  />
-          <label><input name="" type="checkbox" value="" checked="checked" />记住密码</label><label><a href="#">忘记密码？</a></label></li>
+          <label><a href="reg.jsp">注册</a></label><label><a href="#">忘记密码？</a></label></li>
     </ul>
       </form>
 

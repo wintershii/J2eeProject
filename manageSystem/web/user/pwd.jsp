@@ -49,7 +49,7 @@
 <div class="formbody">
 
     <div class="formtitle"><span>修改密码</span></div>
-<form action="/user" method="post" id="fm">
+<form action="/user" method="post" id="fm" target="_top">
     <input type="hidden" name="oper" value="pwd">
     <ul class="forminfo">
         <li><label>新密码</label><input name="newPwd" id="newPwd" type="text" class="dfinput" /></li>

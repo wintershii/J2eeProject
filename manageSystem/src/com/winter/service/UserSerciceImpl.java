@@ -5,6 +5,10 @@ import com.winter.dao.UserDaoImpl;
 import com.winter.poju.User;
 import org.apache.log4j.Logger;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
+
 
 public class UserSerciceImpl implements UserService{
     //声明日志对象
@@ -28,7 +32,28 @@ public class UserSerciceImpl implements UserService{
 
     //修改用户密码
     @Override
-    public void userChangePwdService(String newPwd, int uid) {
-        ud.userChangePwdDao(newPwd,uid);
+    public int userChangePwdService(String newPwd, int uid) {
+        logger.debug(uid + ":发起密码修改请求");
+        int index = ud.userChangePwdDao(newPwd,uid);
+        if (index > 0){
+            logger.debug(uid + ":密码修改成功");
+        } else {
+            logger.debug(uid + ":密码修改失败");
+        }
+        return index;
+    }
+
+    //获取所有的用户信息
+    @Override
+    public List<User> userShowService() {
+        List<User> list = ud.userShowDao();
+        logger.debug("显示所有用户信息:" + list);
+        return list;
+    }
+
+    @Override
+    public int userRegService(User u) {
+        int index = ud.userRegDao(u);
+        return index;
     }
 }

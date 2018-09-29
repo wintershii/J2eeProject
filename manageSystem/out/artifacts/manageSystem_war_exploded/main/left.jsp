@@ -72,10 +72,9 @@
             <span><img src="../images/leftico01.png" /></span>管理信息
         </div>
         <ul class="menuson">
-            <li><cite></cite><a href="" target="rightFrame">查看用户信息</a></li>
+            <li><cite></cite><a href="/user?oper=show" target="rightFrame">查看用户信息</a></li>
         </ul>
     </dd>
-
 </dl>
 
 </body>
