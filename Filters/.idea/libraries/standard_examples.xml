@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="standard-examples">
+    <CLASSES>
+      <root url="jar://D:/jakarta-taglibs-standard-1.1.2/standard-examples.war!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

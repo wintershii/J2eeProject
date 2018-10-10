@@ -1,3 +1,4 @@
+<%@ page import="java.util.Map" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
@@ -34,6 +35,7 @@ Books in Simple Table
 </table>
 
 <br />
+
 
 Big Cities in different country
 <table>

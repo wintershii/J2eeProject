@@ -28,15 +28,15 @@ ${(loginId)? "You Log In Successfully" : "Login failed"}
 </form>
 
 <c:choose>
-    <c:when test="${param.data == '1'}">
-        你输入了1
-    </c:when>
-    <c:when test="${param.data == '2'}">
-        你输入了2
-    </c:when>
-    <c:otherwise>
-        哈啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
-    </c:otherwise>
-</c:choose>
+        <c:when test="${param.data == '1'}">
+            你输入了1
+        </c:when>
+        <c:when test="${param.data == '2'}">
+            你输入了2
+        </c:when>
+        <c:otherwise>
+            哈啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+        </c:otherwise>
+    </c:choose>
 </body>
 </html>
