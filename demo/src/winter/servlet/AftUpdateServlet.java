@@ -1,7 +1,8 @@
 package winter.servlet;
 
 import org.apache.log4j.Logger;
-import winter.service.UpdateService;
+import winter.service.StudentService;
+import winter.service.StudentServiceImp;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,7 +17,7 @@ import java.util.Date;
 @WebServlet(name = "aftUpdate",urlPatterns = {"/update2"})
 public class AftUpdateServlet extends HttpServlet {
     Logger logger = Logger.getLogger(AftUpdateServlet.class);
-    UpdateService us = new UpdateService();
+    StudentService ss = new StudentServiceImp();
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
@@ -31,7 +32,7 @@ public class AftUpdateServlet extends HttpServlet {
             e.printStackTrace();
         }
         int id = Integer.parseInt(req.getParameter("id"));
-        us.updateService(id,name,classnum,entryDate);
+        ss.updateService(id,name,classnum,entryDate);
         logger.debug(new Date() + ":" + "id = " + id + "信息修改成功");
         resp.sendRedirect("/list");
     }

@@ -2,7 +2,8 @@ package winter.servlet;
 
 import org.apache.log4j.Logger;
 import winter.poju.Student;
-import winter.service.AddService;
+import winter.service.StudentService;
+import winter.service.StudentServiceImp;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,7 +19,7 @@ import java.util.Date;
 @WebServlet(name = "add",urlPatterns = {"/add"})
 public class AddServlet extends HttpServlet {
     Logger logger = Logger.getLogger(AddServlet.class);
-    AddService as = new AddService();
+    StudentService ss = new StudentServiceImp();
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
@@ -35,7 +36,7 @@ public class AddServlet extends HttpServlet {
             e.printStackTrace();
         }
         Student student = new Student(uname,pwd,name,classnum,entryDate);
-        as.addService(student);
+        ss.addService(student);
         logger.debug(new Date() + ":" + "添加新用户" + student.getUname() + ":" + student.getName());
         resp.sendRedirect("/list");
     }

@@ -9,10 +9,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <style>
+        body{text-align: center}
+    </style>
     <title>学生信息表</title>
 </head>
 <body>
-<table border="2">
+<div>
+    <h3>学生信息列表</h3>
+<table border="2" align="center">
     <tr>
         <td>学号</td>
         <td>姓名</td>
@@ -33,5 +38,6 @@
         <td><a href="show/add.jsp">添加</a></td>
     </tr>
 </table>
+</div>
 </body>
 </html>

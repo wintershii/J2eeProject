@@ -1,7 +1,8 @@
 package winter.servlet;
 
 import org.apache.log4j.Logger;
-import winter.service.DeleteService;
+import winter.service.StudentService;
+import winter.service.StudentServiceImp;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,13 +15,13 @@ import java.util.Date;
 @WebServlet(name = "delete",urlPatterns = {"/delete"})
 public class DeleteServlet extends HttpServlet {
     Logger logger = Logger.getLogger(DeleteServlet.class);
-    DeleteService ds = new DeleteService();
+    StudentService ss = new StudentServiceImp();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
         resp.setContentType("text/html;charset=utf-8");
         int id= Integer.parseInt(req.getParameter("id"));
-        ds.deleteService(id);
+        ss.deleteService(id);
         logger.debug(new Date() + ":" + id + "用户被删除");
         resp.sendRedirect("/list");
     }

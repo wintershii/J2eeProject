@@ -8,10 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <style>
+        body{text-align: center}
+    </style>
     <title>个人信息界面</title>
 </head>
 <body>
-<table border="2">
+<div>
+    <h3>个人信息</h3>
+<table border="2" align="center">
     <tr>
         <td>学号</td>
         <td>姓名</td>
@@ -27,5 +32,6 @@
         <td><a href="">修改</a> | <a href="">删除</a></td>
     </tr>
 </table>
+</div>
 </body>
 </html>

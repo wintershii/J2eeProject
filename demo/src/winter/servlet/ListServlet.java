@@ -1,7 +1,8 @@
 package winter.servlet;
 
 import winter.poju.Student;
-import winter.service.ListGetService;
+import winter.service.StudentService;
+import winter.service.StudentServiceImp;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,13 +14,13 @@ import java.util.List;
 
 @WebServlet(name = "list",urlPatterns = {"/list"})
 public class ListServlet extends HttpServlet {
-    ListGetService lgs = new ListGetService();
+    StudentService ss = new StudentServiceImp();
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
         resp.setContentType("text/html;charset=utf-8");
         List<Student> list = null;
-        list = lgs.listGetService();
+        list = ss.listGetService();
         if (list != null){
             req.setAttribute("student",list);
         }

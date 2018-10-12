@@ -9,12 +9,20 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+      <style>
+          body{text-align: center}
+      </style>
     <title>登陆</title>
   </head>
   <body>
-  <form action="/login" method="post">
+  <div>
+      <h3>用户登陆</h3>
+  <form action="/login" method="post" >
       账号:<input type="text" name="uname" >
+      <br/>
       密码:<input type="password" name="pwd" >
+      <br/>
+      <br />
       <input type="submit" value="登陆">
   </form>
   <c:if test="${sessionScope.check != null}">
@@ -26,5 +34,6 @@
           %>
       </div>
   </c:if>
+  </div>
   </body>
 </html>

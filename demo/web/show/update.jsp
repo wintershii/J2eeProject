@@ -8,12 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <style>
+        body{text-align: center}
+    </style>
     <title>修改信息</title>
 </head>
 <body>
+<div>
+    <h3>修改信息</h3>
 <form action="/update2" method="post">
     <input type="hidden" value="${updateStu.id}" name="id">
-    <table border="2">
+    <table border="2" align="center">
         <tr>
             <td>学号:</td>
             <td>${updateStu.uname}</td>
@@ -34,5 +39,6 @@
     <br />
     <input type="submit" value="提交">
 </form>
+</div>
 </body>
 </html>
