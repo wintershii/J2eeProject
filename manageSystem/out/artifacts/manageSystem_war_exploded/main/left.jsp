@@ -27,8 +27,6 @@
                     }else{
                         $parent.addClass("open").find('.sub-menus').show();
                     }
-
-
                 }
             });
 

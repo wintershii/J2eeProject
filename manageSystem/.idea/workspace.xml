@@ -7,10 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62d52824-9d37-4d2c-88ed-4eca4c188bb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ajaxlearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajaxlearning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajaxlearning/src/com/winter/service/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ajaxlearning/src/com/winter/service/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/manageSystem_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../teamTest/.idea/artifacts/teamTest_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Filters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Filters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Filters/src/filters/AutoCorrectFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Filters/src/filters/AutoCorrectFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Filters/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Filters/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../courseSelectDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../courseSelectDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/out/artifacts/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/artifacts/logs/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/manageSystem_war_exploded/main/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/manageSystem_war_exploded/main/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/AddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/AddServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/AftUpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/AftUpdateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/DeleteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/ListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/ListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/artifacts/teamTest_war_exploded/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/production/teamTest/winter/servlet/AddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/production/teamTest/winter/servlet/AddServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/production/teamTest/winter/servlet/AftUpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/production/teamTest/winter/servlet/AftUpdateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/production/teamTest/winter/servlet/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/production/teamTest/winter/servlet/DeleteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/out/production/teamTest/winter/servlet/ListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/out/production/teamTest/winter/servlet/ListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/src/winter/servlet/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/src/winter/servlet/AddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/src/winter/servlet/AftUpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/src/winter/servlet/AftUpdateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/src/winter/servlet/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/src/winter/servlet/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/src/winter/servlet/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/src/winter/servlet/ListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/web/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/web/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/web/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/web/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/web/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teamTest/web/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../teamTest/web/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/artifacts/test_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/libraries/log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/artifacts/test_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/artifacts/test_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/web/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,14 +63,14 @@
     <session id="963030885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -123,7 +163,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/winter/service/UserSerciceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1568">
+            <state relative-caret-position="1372">
               <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,8 +175,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/winter/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="513">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -156,7 +196,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/winter/servlet/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1848">
+            <state relative-caret-position="1484">
               <caret line="66" column="46" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -228,10 +268,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="2302" />
+    <option name="y" value="154" />
+    <option name="width" value="830" />
+    <option name="height" value="640" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -241,13 +281,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manageSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manageSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -332,15 +384,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538212841584" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../小项目/calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -460,11 +511,12 @@
       <workItem from="1538219954765" duration="1229000" />
       <workItem from="1538972847539" duration="467000" />
       <workItem from="1538974207877" duration="456000" />
+      <workItem from="1539693734086" duration="1268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35493000" />
+    <option name="totallyTimeSpent" value="36761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,9 +528,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="0" width="1296" height="1000" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990619" visible="true" weight="0.17627347" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990619" visible="true" weight="0.18365696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -666,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/winter/service/UserSerciceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1568">
+        <state relative-caret-position="1372">
           <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -686,7 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/winter/servlet/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
+        <state relative-caret-position="1484">
           <caret line="66" column="46" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -703,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/winter/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="513">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -714,11 +766,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>manageSystem:war exploded</last-edited>
+          <last-edited>manageSystem:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21839081" />
                 <option value="0.5" />
               </list>
             </option>
@@ -767,6 +819,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

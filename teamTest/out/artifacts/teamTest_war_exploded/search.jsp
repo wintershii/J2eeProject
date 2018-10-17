@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: wintershii
@@ -11,7 +12,7 @@
     <title>查找商品信息</title>
 </head>
 <body>
-<form method="post" action="/search">
+<form method="post" action="<c:url value="search"/>">
     请输入相关商品信息:<input type="text" name="info">
     <input type="submit" value="查找">
 </form>

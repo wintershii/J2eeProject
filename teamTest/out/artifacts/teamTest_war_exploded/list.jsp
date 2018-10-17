@@ -28,15 +28,15 @@
             <td>${g.location}</td>
             <td>${g.gDate}</td>
             <td>${g.gRest}</td>
-            <td><a href="/delete?id=${g.id}" >删除</a> <a href="/update?id=${g.id}">修改</a></td>
+            <td><a href="<c:url value="delete?id=${g.id}"/>">删除</a> <a href="<c:url value="update?id=${g.id}"/>">修改</a></td>
         </tr>
     </c:forEach>
 </table>
 <br />
-<form action="add.jsp" method="">
+<form action="<c:url value="add.jsp"/>" method="">
     <input type="submit" value="增加">
 </form>
-<form action="search.jsp" method="">
+<form action="<c:url value="search.jsp"/>" method="">
     <input type="submit" value="查找">
 </form>
 </body>

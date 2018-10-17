@@ -20,6 +20,6 @@ public class DeleteServlet extends HttpServlet {
 
         int id = Integer.parseInt(req.getParameter("id"));
         gs.goodDeleteService(id);
-        resp.sendRedirect("/list");
+        resp.sendRedirect( req.getContextPath() + "/list");
     }
 }

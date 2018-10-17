@@ -25,10 +25,10 @@ public class ListServlet extends HttpServlet {
         list = gs.listGetService();
         if (list != null){
             req.setAttribute("goods",list);
-            req.getRequestDispatcher("list.jsp").forward(req,resp);
+            req.getRequestDispatcher("/list.jsp").forward(req,resp);
         } else {
             req.setAttribute("isNull",1);
-            req.getRequestDispatcher("index.jsp").forward(req,resp);
+            req.getRequestDispatcher("/index.jsp").forward(req,resp);
         }
     }
 

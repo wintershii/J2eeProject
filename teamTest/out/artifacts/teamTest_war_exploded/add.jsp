@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: wintershii
@@ -11,7 +12,7 @@
     <title>新增商品</title>
 </head>
 <body>
-<form method="post" action="/add">
+<form method="post" action="<c:url value="add"/>">
     名称:<input type="text" name="name"> <br />
     类型:<input type="text" name="gType"> <br />
     产地:<input type="text" name="location"> <br />

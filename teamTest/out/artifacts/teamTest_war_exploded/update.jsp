@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: wintershii
@@ -11,7 +12,7 @@
     <title>修改个人信息</title>
 </head>
 <body>
-<form method="post" action="/update1">
+<form method="post" action="<c:url value="update1"/>">
     <input type="hidden" name="id" value="${good.id}">
     名称:<input type="text" name="name" value="${good.name}"> <br />
     类型:<input type="text" name="gType" value="${good.gType}"> <br />

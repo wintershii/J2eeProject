@@ -12,7 +12,7 @@
     <title>选择</title>
   </head>
   <body>
-  <form action="/list" method="post">
+  <form action="<c:url value="list"></c:url>" method="post">
     <input type="submit" value="查看列表">
   </form>
   <c:if test="${isNull != null}">

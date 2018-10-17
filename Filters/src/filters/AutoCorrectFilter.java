@@ -11,7 +11,10 @@ public class AutoCorrectFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-
+        filterConfig.getServletContext();
+        filterConfig.getFilterName();
+        filterConfig.getInitParameterNames();
+        filterConfig.getInitParameter("");
     }
 
     @Override

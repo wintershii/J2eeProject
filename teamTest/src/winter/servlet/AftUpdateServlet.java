@@ -36,6 +36,6 @@ public class AftUpdateServlet extends HttpServlet {
         }
         Good g = new Good(id,name,gType,location,gDate,gRest);
         gs.goodUpdateService(g);
-        resp.sendRedirect("/list");
+        resp.sendRedirect(req.getContextPath() + "/list");
     }
 }

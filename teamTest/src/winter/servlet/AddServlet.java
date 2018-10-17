@@ -35,6 +35,6 @@ public class AddServlet extends HttpServlet {
         }
         Good g = new Good(0,name,gType,location,gDate,gRest);
         gs.goodAddService(g);
-        resp.sendRedirect("/list");
+        resp.sendRedirect(req.getContextPath() + "/list");
     }
 }
