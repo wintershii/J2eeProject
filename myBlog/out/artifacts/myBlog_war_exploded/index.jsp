@@ -18,10 +18,17 @@
       session.invalidate();
     %>
   </c:if>
+  <c:if test="${sessionScope.loginFail != null}">
+    密码错误请重新登陆
+    <%
+      session.invalidate();
+    %>
+  </c:if>
   <form method="post" action="<c:url value="login"/>">
     账号:<input type="text" name="account">
   <br />
     密码:<input type="password" name="pwd">
+    <br />
     <input type="submit" value="登陆">
   </form>
   <form action="<c:url value="resgister.jsp"/> " method="post">

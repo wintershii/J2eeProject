@@ -10,6 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -30,10 +31,14 @@ public class LoginServlet extends HttpServlet {
         //调用服务层方法，返回用户对象
         User u = us.loginCheckService(account,pwd);
         if (u != null){
-            logger.debug(new SimpleDateFormat("yyyy-MM-dd").format(new Date()) + u.getAccount()+"登陆成功");
-            System.out.println(u);
+            logger.debug(new SimpleDateFormat("yyyy-MM-dd").format(new Date()) + ":" + u.getAccount() + " "+ "登陆成功");
+            HttpSession hs = req.getSession();
+            hs.setAttribute("user",u);
+            resp.sendRedirect(req.getContextPath() + "main.jsp");
         } else {
-
+            HttpSession hs = req.getSession();
+            hs.setAttribute("loginFail",1);
+            resp.sendRedirect(req.getContextPath() + "index.jsp");
         }
     }
 }

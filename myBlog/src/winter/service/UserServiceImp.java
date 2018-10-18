@@ -18,4 +18,9 @@ public class UserServiceImp implements UserService{
         ud.registerDao(account, pwd, name, sex, birth, signature);
     }
 
+    @Override
+    public void userUpdateService(String name, int sex, String birth, String signature,int id) {
+        ud.userUpdateDao(name,sex,birth,signature,id);
+    }
+
 }

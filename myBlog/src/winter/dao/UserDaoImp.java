@@ -14,11 +14,13 @@ public class UserDaoImp implements UserDao {
     static Connection conn = JDBCUtil.getConnection();
     @Override
     public User loginCheckDao(String account, String pwd) {
-        String sql = "select * from t_user";
+        String sql = "select * from t_user where account = ? and pwd = ?";
         ResultSet rs = null;
         User u = null;
         try {
             PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1,account);
+            ps.setString(2,pwd);
             rs = ps.executeQuery();
             if (rs != null){
                 while (rs.next()){
@@ -57,6 +59,23 @@ public class UserDaoImp implements UserDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void userUpdateDao(String name, int sex, String birth, String signature,int id) {
+        String sql = "update t_user set name = ?,sex = ?,birth = ?,signature = ? where id = ?";
+        try {
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1,name);
+            ps.setInt(2,sex);
+            ps.setString(3,birth);
+            ps.setString(4,signature);
+            ps.setInt(5,id);
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
 
 

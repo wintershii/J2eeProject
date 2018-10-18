@@ -1,5 +1,6 @@
 package winter.servlet;
 
+import org.apache.log4j.Logger;
 import winter.service.UserService;
 import winter.service.UserServiceImp;
 
@@ -10,10 +11,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @WebServlet(name = "RegisterServlet",urlPatterns = {"/register"})
 public class RegisterServlet extends HttpServlet {
     UserService us = new UserServiceImp();
+    Logger logger = Logger.getLogger(RegisterServlet.class);
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //设置请求编码格式
@@ -28,7 +32,7 @@ public class RegisterServlet extends HttpServlet {
         String birth = req.getParameter("birth");
         String signature = req.getParameter("signature");
         us.registerService(account,pwd,name,sex,birth,signature);
-
+        logger.debug(new SimpleDateFormat("yyyy-MM-dd").format(new Date()) + ":" + account + " "+ "注册成功");
         HttpSession hs = req.getSession();
         hs.setAttribute("register",1);
         resp.sendRedirect(req.getContextPath() + "index.jsp");

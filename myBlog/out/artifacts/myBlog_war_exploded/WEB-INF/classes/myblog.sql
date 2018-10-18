@@ -16,5 +16,6 @@ create table t_article(
   aid int not null,
   aDate date not null,
   essay text not null,
+  views int not null,
   primary key (id)
 );
