@@ -2,6 +2,7 @@ package winter.service;
 
 import winter.dao.UserDao;
 import winter.dao.UserDaoImp;
+import winter.pojo.Article;
 import winter.pojo.User;
 
 public class UserServiceImp implements UserService{
@@ -21,6 +22,11 @@ public class UserServiceImp implements UserService{
     @Override
     public void userUpdateService(String name, int sex, String birth, String signature,int id) {
         ud.userUpdateDao(name,sex,birth,signature,id);
+    }
+
+    @Override
+    public void articleSubmitService(Article article) {
+        ud.articleSubmitService(article);
     }
 
 }

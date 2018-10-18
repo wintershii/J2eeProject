@@ -1,5 +1,6 @@
 package winter.dao;
 
+import winter.pojo.Article;
 import winter.pojo.User;
 import winter.util.JDBCUtil;
 
@@ -78,5 +79,21 @@ public class UserDaoImp implements UserDao {
 
     }
 
+    @Override
+    public void articleSubmitService(Article article) {
+        String sql = "insert into t_article (id,title,author,aid,aDate,essay,views) values (default,?,?,?,?,?,?)";
+        try {
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1,article.getTitle());
+            ps.setString(2,article.getAuthor());
+            ps.setInt(3,article.getAid());
+            ps.setString(4,new SimpleDateFormat("yyyy-MM-dd").format(article.getaDate()));
+            ps.setString(5,article.getEssay());
+            ps.setInt(6,article.getViews());
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
 }

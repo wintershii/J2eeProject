@@ -20,10 +20,13 @@
 
 <body>
 <form method="post" action="<c:url value="article"/>">
+    标题:<input type="text" name="title">
+    <input type="hidden" name="author" value="${sessionScope.user.name}">
+    <input type="hidden" name="aid" value="${sessionScope.user.id}">
 <div class="editormd" id="test-editormd">
     <textarea class="editormd-markdown-textarea" name="test-editormd-markdown-doc"></textarea>
     <!-- 第二个隐藏文本域，用来构造生成的HTML代码，方便表单POST提交，这里的name可以任意取，后台接受时以这个name键为准 -->
-    <textarea class="editormd-html-textarea" name="text"></textarea>
+    <textarea class="editormd-html-textarea" name="essay"></textarea>
 </div>
     <input type="submit" value="发布文章">
 </form>
