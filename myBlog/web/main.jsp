@@ -47,5 +47,7 @@
 </table>
 <a href="<c:url value="update.jsp"/>">修改个人信息</a>
 <a href="<c:url value="editor.jsp"/> ">写文章</a>
+<a href="<c:url value="show?id=0"/>">博客大厅</a>
+<a href="<c:url value="show?id=${sessionScope.user.id}"/>">我的博客</a>
 </body>
 </html>

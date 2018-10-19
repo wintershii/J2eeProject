@@ -3,7 +3,10 @@ package winter.service;
 import winter.dao.UserDao;
 import winter.dao.UserDaoImp;
 import winter.pojo.Article;
+import winter.pojo.ArticleDescribe;
 import winter.pojo.User;
+
+import java.util.List;
 
 public class UserServiceImp implements UserService{
     UserDao ud = new UserDaoImp();
@@ -24,9 +27,6 @@ public class UserServiceImp implements UserService{
         ud.userUpdateDao(name,sex,birth,signature,id);
     }
 
-    @Override
-    public void articleSubmitService(Article article) {
-        ud.articleSubmitService(article);
-    }
+
 
 }

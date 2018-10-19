@@ -19,3 +19,14 @@ create table t_article(
   views int not null,
   primary key (id)
 );
+
+create table t_artiDescribe(
+  id int not null,
+  title varchar(300) not null,
+  author varchar(50) not null,
+  aid int not null,
+  aDate date not null,
+  essay text not null,
+  views int not null,
+  primary key (id)
+);

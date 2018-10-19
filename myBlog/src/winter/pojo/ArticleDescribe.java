@@ -1,9 +1,8 @@
 package winter.pojo;
 
 import java.util.Date;
-import java.sql.*;
 
-public class Article {
+public class ArticleDescribe {
     private int id;
     private String title;
     private String author;
@@ -12,7 +11,10 @@ public class Article {
     private String essay;
     private int views;
 
-    public Article(int id, String title, String author, int aid, Date aDate, String essay, int views) {
+    public ArticleDescribe() {
+    }
+
+    public ArticleDescribe(int id, String title, String author, int aid, Date aDate, String essay, int views) {
         this.id = id;
         this.title = title;
         this.author = author;
@@ -20,9 +22,6 @@ public class Article {
         this.aDate = aDate;
         this.essay = essay;
         this.views = views;
-    }
-
-    public Article() {
     }
 
     public int getViews() {

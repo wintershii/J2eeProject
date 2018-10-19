@@ -16,7 +16,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@WebServlet(name = "AftUpdate",urlPatterns = {"/update1"})
+@WebServlet(name = "AftUpdateServlet",urlPatterns = {"/update1"})
 public class AftUpdateServlet extends HttpServlet {
     UserService us = new UserServiceImp();
     Logger logger = Logger.getLogger(AftUpdateServlet.class);
