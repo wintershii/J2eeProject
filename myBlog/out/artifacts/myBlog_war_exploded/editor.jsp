@@ -16,20 +16,26 @@
     <script type="text/javascript" src="editor.md-master/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="editor.md-master/editormd.min.js"></script>
     <link rel="stylesheet" href="editor.md-master/css/editormd.css">
+    <style>
+        .submit {position: absolute;right: 300px; top:30px;}
+    </style>
 </head>
 
 <body>
 <form method="post" action="<c:url value="article"/>">
-    标题:<input type="text" name="title">
+    <h2 style="position: absolute; left: 80px">标题:<input type="text" name="title" style="width: 400px;height: 30px;" required="required"></h2>
     <input type="hidden" name="author" value="${sessionScope.user.name}">
     <input type="hidden" name="aid" value="${sessionScope.user.id}">
-<div class="editormd" id="test-editormd">
-    <textarea class="editormd-markdown-textarea" name="test-editormd-markdown-doc"></textarea>
+<div class="editormd" id="test-editormd" style="top: 70px">
+    <textarea class="editormd-markdown-textarea" name="test-editormd-markdown-doc" required="required"></textarea>
     <!-- 第二个隐藏文本域，用来构造生成的HTML代码，方便表单POST提交，这里的name可以任意取，后台接受时以这个name键为准 -->
     <textarea class="editormd-html-textarea" name="essay"></textarea>
 </div>
+    <div class="submit">
     <input type="submit" value="发布文章">
+    </div>
 </form>
+<br />
 <script type="text/javascript">
     $(function() {
         editormd("test-editormd", {

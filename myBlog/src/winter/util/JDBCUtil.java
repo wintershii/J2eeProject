@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class JDBCUtil {
+
     public static Connection getConnection(){
         //声明jdbc对象
         Connection conn = null;

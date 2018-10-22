@@ -20,6 +20,13 @@ public class DaoUtil {
         Matcher m_html=p_html.matcher(htmlStr);
         htmlStr=m_html.replaceAll(""); //过滤html标签
 
-        return htmlStr.trim(); //返回文本字符串
+        String result = htmlStr.trim();
+
+        if (result.length() <= 300){
+            return result;
+        } else{
+            return result.substring(0,300);
+        }
+
     }
 }

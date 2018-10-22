@@ -13,9 +13,23 @@
 <html>
 <head>
     <title>个人中心</title>
+    <style>
+        .top {position: absolute;border: 1px outset #0a001f;width: 1500px;height: 80px;padding: 10px;
+        }
+        .info {position: absolute;top: 120px;border: 1px outset #0a001f;
+        width: 250px;height: 220px;text-align: center;padding: 10px;}
+        .showList {position: absolute;left: 350px; right: 100px; top: 120px;border: 1px outset #0a001f;
+            padding: 10px; line-height: 10px}
+    </style>
 </head>
 <body>
-<table border="1">
+<div class="top">
+    <h2>${sessionScope.user.name}的博客</h2>
+
+</div>
+
+<div class="info">
+<table>
     <tr>
         个人信息
     </tr>
@@ -44,10 +58,42 @@
         <td>个性签名:</td>
         <td>${sessionScope.user.signature}</td>
     </tr>
+    <tr>
+        <td><a href="<c:url value="update.jsp"/>">修改个人信息</a></td>
+        <td><a href="<c:url value="show?id=${sessionScope.user.id}"/>">我的博客</a></td>
+        <br />
+    </tr>
+    <tr>
+        <td><a href="<c:url value="editor.jsp"/>" style="right: 100px">写新文章</a></td>
+    </tr>
 </table>
-<a href="<c:url value="update.jsp"/>">修改个人信息</a>
-<a href="<c:url value="editor.jsp"/> ">写文章</a>
-<a href="<c:url value="show?id=0"/>">博客大厅</a>
-<a href="<c:url value="show?id=${sessionScope.user.id}"/>">我的博客</a>
+</div>
+
+<div class="showList">
+    <table>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td style="text-align: center;font-size: 20px">博客大厅</td>
+        </tr>
+        <tr>
+            <td>标题</td>
+            <td>作者</td>
+            <td style="text-align: center">概览</td>
+            <td>日期</td>
+            <td>浏览量</td>
+        </tr>
+        <c:forEach items="${articleList}" var="a">
+            <tr>
+                <td><a href="<c:url value="articlePage?id=${a.id}"/>">${a.title}</a></td>
+                <td><a href="<c:url value="homePage?aid=${a.aid}"/>">${a.author}</a> </td>
+                <td>${a.essay}</td>
+                <td>${a.aDate}</td>
+                <td>${a.views}</td>
+            </tr>
+        </c:forEach>
+
+    </table>
+</div>
 </body>
 </html>

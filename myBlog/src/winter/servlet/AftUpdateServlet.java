@@ -2,8 +2,8 @@ package winter.servlet;
 
 import org.apache.log4j.Logger;
 import winter.pojo.User;
+import winter.service.ServiceImp;
 import winter.service.UserService;
-import winter.service.UserServiceImp;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,7 +18,7 @@ import java.util.Date;
 
 @WebServlet(name = "AftUpdateServlet",urlPatterns = {"/update1"})
 public class AftUpdateServlet extends HttpServlet {
-    UserService us = new UserServiceImp();
+    UserService us = new ServiceImp();
     Logger logger = Logger.getLogger(AftUpdateServlet.class);
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -45,7 +45,7 @@ public class AftUpdateServlet extends HttpServlet {
             e.printStackTrace();
         }
         logger.debug(new SimpleDateFormat("yyyy-MM-dd").format(new Date()) + ":" + u.getAccount() + " "+ "信息修改成功");
-        resp.sendRedirect(req.getContextPath() + "main.jsp");
+        resp.sendRedirect(req.getContextPath() + "/show?id=0");
 
     }
 }

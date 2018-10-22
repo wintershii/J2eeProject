@@ -2,7 +2,7 @@ package winter.servlet;
 
 import winter.pojo.Article;
 import winter.service.ArticleService;
-import winter.service.ArticleServiceImp;
+import winter.service.ServiceImp;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @WebServlet(name = "ArticleShowServlet",urlPatterns = {"/articlePage"})
 public class ArticleShowServlet extends HttpServlet {
-    ArticleService as = new ArticleServiceImp();
+    ArticleService as = new ServiceImp();
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //设置请求编码格式
