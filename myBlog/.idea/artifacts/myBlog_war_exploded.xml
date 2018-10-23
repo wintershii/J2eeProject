@@ -10,6 +10,8 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="log4j-1.2.17" />
           <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="mchange-commons-java-0.2.11" />
         </element>
       </element>
     </root>

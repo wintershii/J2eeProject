@@ -7,7 +7,7 @@ create table t_user(
   birth date not null,
   signature varchar(300) not null,
   primary key (id,account)
-);
+)charset=utf8;
 
 create table t_article(
   id int not null auto_increment,
@@ -18,7 +18,7 @@ create table t_article(
   essay text not null,
   views int not null,
   primary key (id)
-);
+)charset=utf8;
 
 create table t_artiDescribe(
   id int not null,
@@ -29,4 +29,4 @@ create table t_artiDescribe(
   essay text not null,
   views int not null,
   primary key (id)
-);
+)charset=utf8;

@@ -7,47 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d3483e4-e667-4f86-97bd-36cfa17c9b84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/teamTest_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Filters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Filters/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Filters/src/filters/AutoCorrectFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Filters/src/filters/AutoCorrectFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Filters/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Filters/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../courseSelectDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../courseSelectDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/out/artifacts/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/out/artifacts/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/AddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/AddServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/AftUpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/AftUpdateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/DeleteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/ListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/WEB-INF/classes/winter/servlet/ListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/teamTest_war_exploded/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/teamTest/winter/servlet/AddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/teamTest/winter/servlet/AddServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/teamTest/winter/servlet/AftUpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/teamTest/winter/servlet/AftUpdateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/teamTest/winter/servlet/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/teamTest/winter/servlet/DeleteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/teamTest/winter/servlet/ListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/teamTest/winter/servlet/ListServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/winter/servlet/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/winter/servlet/AddServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/winter/servlet/AftUpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/winter/servlet/AftUpdateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/winter/servlet/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/winter/servlet/DeleteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/winter/servlet/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/winter/servlet/ListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/artifacts/test_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/libraries/log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/out/artifacts/test_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/out/artifacts/test_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/web/index.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myBlog/.idea/artifacts/myBlog_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myBlog/src/winter/servlet/OtherHomePageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myBlog/web/homePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/dao/ArticleDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/dao/ArticleDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/dao/UserDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/dao/UserDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/service/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/service/UserServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/servlet/AftUpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/servlet/AftUpdateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/servlet/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/util/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/WEB-INF/classes/winter/util/JDBCUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/articleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/artifacts/myBlog_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/dao/ArticleDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/dao/ArticleDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/dao/UserDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/dao/UserDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/service/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/service/UserServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/servlet/AftUpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/servlet/AftUpdateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/servlet/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/util/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/out/production/myBlog/winter/util/JDBCUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/src/winter/dao/ArticleDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/src/winter/dao/ArticleDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/src/winter/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/src/winter/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/src/winter/dao/UserDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/src/winter/dao/UserDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/src/winter/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/src/winter/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/src/winter/service/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/src/winter/service/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/src/winter/servlet/AftUpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/src/winter/servlet/AftUpdateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/src/winter/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/src/winter/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/src/winter/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/src/winter/servlet/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/src/winter/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/src/winter/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/web/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/web/articleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myBlog/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myBlog/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,18 +55,19 @@
     <session id="584859613">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="create,sql" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="33" />
           <entry key="jsp" value="13" />
           <entry key="sql" value="2" />
           <entry key="xml" value="1" />
@@ -80,7 +76,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="33" />
           <entry key="JSP" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SQL" value="2" />
@@ -105,30 +101,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/winter/servlet/SearchServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/winter/servlet/PreUpdateServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/show.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -204,11 +176,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="224">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/winter/Util/JDBCUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/winter/dao/GoodDaoImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -266,10 +259,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2034" />
-    <option name="y" value="102" />
-    <option name="width" value="1037" />
-    <option name="height" value="800" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -279,8 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -378,13 +369,15 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539527968945" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../manageSystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myBlog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -490,16 +483,17 @@
       <workItem from="1539519503759" duration="8832000" />
       <workItem from="1539608139551" duration="3181000" />
       <workItem from="1539693587560" duration="141000" />
+      <workItem from="1540184668669" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12154000" />
+    <option name="totallyTimeSpent" value="12183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="0" width="1296" height="1000" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19255663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19504021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -552,13 +546,6 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/winter/Util/JDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/winter/service/GoodService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -586,22 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/winter/dao/GoodDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/winter/dao/GoodDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,8 +684,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="224">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/winter/Util/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/winter/dao/GoodDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
