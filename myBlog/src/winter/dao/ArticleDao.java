@@ -9,4 +9,5 @@ public interface ArticleDao {
     void articleSubmitDao(Article article);
     List<ArticleDescribe> articleListGetDao(int id);
     Article articleGetDao(int id);
+    void articleDeleteDao(int id);
 }

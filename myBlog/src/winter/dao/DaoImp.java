@@ -153,6 +153,25 @@ public class DaoImp implements ArticleDao,UserDao{
         return article;
     }
 
+    @Override
+    public void articleDeleteDao(int id) {
+        Connection conn = null;
+        PreparedStatement ps = null;
+        String sql = "delete from t_article where id = ?";
+        String sql2 = "delete from t_artiDescribe where id = ?";
+        try {
+            conn = JDBCUtil.getConnection();
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1,id);
+            ps.executeUpdate();
+            ps = conn.prepareStatement(sql2);
+            ps.setInt(1,id);
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void articleDescribeDao(int id,Article article){
         String sql = "insert into t_artiDescribe (id,title,author,aid,aDate,essay,views) values (?,?,?,?,?,?,?)";
         Connection conn = null;

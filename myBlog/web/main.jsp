@@ -25,7 +25,7 @@
 <body>
 <div class="top">
     <h2>${sessionScope.user.name}的博客</h2>
-
+    <a href="<c:url value="quit"/>" style="position: absolute;right: 100px;top: 25px">退出登陆</a>
 </div>
 
 <div class="info">
@@ -92,7 +92,6 @@
                 <td>${a.views}</td>
             </tr>
         </c:forEach>
-
     </table>
 </div>
 </body>

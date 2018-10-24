@@ -9,4 +9,5 @@ public interface ArticleService {
     void articleSubmitService(Article article);
     List<ArticleDescribe> articleListGetService(int id);
     Article articleGetService(int id);
+    void articleDeleteService(int id);
 }
