@@ -11,21 +11,30 @@
 <html>
 <head>
     <title>${article.title}</title>
+    <link type="text/css" href="editor.md-master/lib/codemirror/codemirror.min.css">
+    <script type="text/javascript" src="editor.md-master/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="editor.md-master/editormd.min.js"></script>
+    <link rel="stylesheet" href="editor.md-master/css/editormd.css">
     <style>
-        .articleShow {position: absolute;text-align: center; left: 300px; right: 300px;
+        .articleShow {position: absolute; left: 300px; right: 300px;
             width: 800px;border: 1px outset #0a001f;}
     </style>
 </head>
 <div class="articleShow">
 <body>
+<div style="text-align: center">
 <h3>${article.title}</h3>
 作者:${article.author}
 <br />
 <br />
 发布日期:<%=new SimpleDateFormat("yyyy-MM-dd").format(((Article)request.getAttribute("article")).getaDate())%>
 浏览量:${article.views}
+</div>
 <br />
-${article.essay}
+<div class="editormd-html-textarea" style="align-content: left;padding: 10px;">
+    ${article.essay}
+</div>
+
 </body>
 </div>
 </html>

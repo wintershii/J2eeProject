@@ -10,9 +10,15 @@
 <html>
 <head>
     <title>注册新用户</title>
+    <style>
+        .registerBox {position: absolute;border: 1px outset #0a001f;text-align: center; left: 550px; bottom: 200px;
+            line-height: 50px;height: 500px;width: 400px;}
+    </style>
 </head>
 <body>
+<div class="registerBox">
 <form method="post" action="<c:url value="register"/>">
+    <h2>新用户注册</h2>
     账号:<input type="text" name="account" required="required">
     <br />
     密码:<input type="password" name="pwd" required="required">
@@ -29,5 +35,6 @@
     <br />
     <input type="submit" value="注册">
 </form>
+</div>
 </body>
 </html>
