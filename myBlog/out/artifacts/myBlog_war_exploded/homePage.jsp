@@ -15,14 +15,20 @@
     <title>${user.name}的主页</title>
     <style>
         .top {position: absolute;border: 1px outset #0a001f;width: 1500px;height: 80px;padding: 10px;
+            float: top;background-color: rgba(240, 255, 255, 0.3);
         }
         .homeInfo {position: absolute;top: 120px;border: 1px outset #0a001f;
-            width: 250px;height: 220px;text-align: center;padding: 10px;}
-        .showList {position: absolute;left: 350px; right: 150px; top: 120px;border: 1px outset #0a001f;
-            padding: 10px; line-height: 30px}
+            width: 250px;height: 220px;text-align: center;padding: 10px;
+            background-color: rgba(240, 255, 255, 0.3);float: top;
+        }
+        .showList {position: absolute;left: 350px; right: 100px; top: 120px;border: 1px outset #0a001f;
+            padding: 10px;
+            background-color: rgba(240, 255, 255, 0.3);float: top;;
+        }
+        li{float:left;list-style: none;}
     </style>
 </head>
-<body>
+<body background="http://pic32.photophoto.cn/20140723/0008020945920117_b.jpg">
 <div class="top">
     <h2>${user.name}的博客</h2>
 
@@ -47,37 +53,29 @@
         %></td>
     </tr>
     <tr>
-        <td>个性签名</td>
+        <td>个性签名:</td>
         <td>${user.signature}</td>
     </tr>
 </table>
 </div>
 
 <div class="showList">
-    <table>
-        <tr>
-            <td>&nbsp;&nbsp;</td>
-            <td>&nbsp;&nbsp;</td>
-            <td style="text-align: center;font-size: 20px">博客大厅</td>
-        </tr>
-        <tr>
-            <td>标题</td>
-            <td>作者</td>
-            <td style="text-align: center">概览</td>
-            <td>日期</td>
-            <td>浏览量</td>
-        </tr>
-        <c:forEach items="${articleList}" var="a">
-            <tr>
-                <td><a href="<c:url value="articlePage?id=${a.id}"/>">${a.title}</a></td>
-                <td><a href="<c:url value="homePage?aid=${a.aid}"/>">${a.author}</a> </td>
-                <td>${a.essay}</td>
-                <td><fmt:formatDate value="${a.aDate}" pattern="yyyy-MM-dd"/></td>
-                <td>${a.views}</td>
-            </tr>
-        </c:forEach>
 
-    </table>
+    <c:forEach items="${articleList}" var="a">
+        <div>
+            <h2><a href="<c:url value="articlePage?id=${a.id}"/>">${a.title}</a></h2>
+            <h4>${a.essay}</h4>
+            <ul>
+                <li>作者:<a href="<c:url value="homePage?aid=${a.aid}"/>">${a.author}</a>&nbsp;&nbsp;&nbsp;</li>
+
+                <li>发布日期:<fmt:formatDate value="${a.aDate}" pattern="yyyy-MM-dd"/>&nbsp;&nbsp;&nbsp;</li>
+
+                <li>浏览量:${a.views}</li>
+            </ul>
+            <br />
+        </div>
+    </c:forEach>
+</div>
 </div>
 </body>
 </html>

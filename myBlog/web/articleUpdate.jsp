@@ -17,13 +17,18 @@
     <script type="text/javascript" src="editor.md-master/editormd.min.js"></script>
     <link rel="stylesheet" href="editor.md-master/css/editormd.css">
     <style>
-        .submit {position: absolute;right: 300px; top:30px;}
+        .sub{width:140px;height:36px;line-height:18px;font-size:18px;
+            position: absolute;right: 200px; top:25px;
+            background:url("http://www.divcss5.com/uploads/allimg/1309/1_130916141709_1.jpg") no-repeat left top;
+            color:#FFF;padding-bottom:4px}
+        .title {position: absolute; left: 80px;
+        }
     </style>
 </head>
 
-<body>
+<body background="http://pic32.photophoto.cn/20140723/0008020945920117_b.jpg">
 <form method="post" action="<c:url value="articleUpdate1"/>">
-    <h2 style="position: absolute; left: 80px">标题:<input type="text" name="title" style="width: 400px;height: 30px;" required="required" value="${title}"></h2>
+    <h2 class= "title">标题:<input type="text" name="title" style="width: 400px;height: 30px;" required="required" value="${title}"></h2>
     <input type="hidden" name="id" value="${id}">
     <div class="editormd" id="test-editormd" style="top: 70px">
         <textarea class="editormd-markdown-textarea" name="markdown" required="required">${preMarkdown}</textarea>
@@ -31,7 +36,8 @@
         <textarea class="editormd-html-textarea" name="essay"></textarea>
     </div>
     <div class="submit">
-        <input type="submit" value="发布文章">
+        <input type="submit" value="发布文章" class="sub" onmouseover="this.style.backgroundPosition='left -36px'"
+               onmouseout="this.style.backgroundPosition='left top'">
     </div>
 </form>
 <br />

@@ -17,7 +17,7 @@
     <script language="JavaScript" src="editor.md-master/jquery-3.1.1.min.js"></script>
     <style>
         .articleShow {position: absolute; left: 300px;
-            width: 800px;border: 1px outset #0a001f;}
+            width: 800px;}
         div,code {}
     </style>
     <script type="text/javascript">
@@ -33,9 +33,9 @@
 
 </head>
 <div class="articleShow">
-<body>
-<div style="text-align: center">
-<h3>${article.title}</h3>
+<body background="http://pic32.photophoto.cn/20140723/0008020945920117_b.jpg">
+<div style="text-align: center;background: white;border-radius: 10px;width: 818px">
+<h2>${article.title}</h2>
 作者:<a href="<c:url value="homePage?aid=${article.aid}"/>">${article.author}</a>
 <br />
 <br />

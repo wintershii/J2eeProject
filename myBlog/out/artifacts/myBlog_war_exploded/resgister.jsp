@@ -12,10 +12,16 @@
     <title>注册新用户</title>
     <style>
         .registerBox {position: absolute;border: 1px outset #0a001f;text-align: center; left: 550px; bottom: 200px;
-            line-height: 50px;height: 500px;width: 400px;}
+            line-height: 50px;height: 500px;width: 400px;
+            float: top;background-color: rgba(240, 255, 255, 0.3);
+            border-radius: 10px;
+        }
+        .btns { width:143px; height:40px;
+            background:url("http://www.divcss5.com/uploads/allimg/1309/1_130916141906_1.jpg") no-repeat left top;
+            color:#FFF; }
     </style>
 </head>
-<body>
+<body background="http://pic32.photophoto.cn/20140723/0008020945920117_b.jpg">
 <div class="registerBox">
 <form method="post" action="<c:url value="register"/>">
     <h2>新用户注册</h2>
@@ -33,7 +39,8 @@
     <br />
     个性签名:<input type="text" name="signature">
     <br />
-    <input type="submit" value="注册">
+    <input type="submit" value="注册" class="btns" onmouseover="this.style.backgroundPosition='left -40px'"
+           onmouseout="this.style.backgroundPosition='left top'">
 </form>
 </div>
 </body>
