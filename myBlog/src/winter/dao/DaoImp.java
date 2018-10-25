@@ -18,7 +18,7 @@ import java.util.List;
 public class DaoImp implements ArticleDao,UserDao{
     @Override
     public void articleSubmitDao(Article article) {
-        String sql = "insert into t_article (id,title,author,aid,aDate,essay,views) values (default,?,?,?,?,?,?)";
+        String sql = "insert into t_article (id,title,author,aid,aDate,essay,markdown,views) values (default,?,?,?,?,?,?,?)";
         Connection conn = null;
         PreparedStatement ps = null;
         try {
@@ -29,7 +29,8 @@ public class DaoImp implements ArticleDao,UserDao{
             ps.setInt(3,article.getAid());
             ps.setString(4,new SimpleDateFormat("yyyy-MM-dd").format(article.getaDate()));
             ps.setString(5,article.getEssay());
-            ps.setInt(6,article.getViews());
+            ps.setString(6,article.getMarkdown());
+            ps.setInt(7,article.getViews());
             ps.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -166,6 +167,58 @@ public class DaoImp implements ArticleDao,UserDao{
             ps.executeUpdate();
             ps = conn.prepareStatement(sql2);
             ps.setInt(1,id);
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public Article markdownGetDao(int id) {
+        String sql = "select markdown,title from t_article where id = ?";
+        Connection conn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        String markdown = null;
+        String title = null;
+        Article a = null;
+        try {
+            conn = JDBCUtil.getConnection();
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1,id);
+            rs = ps.executeQuery();
+            while (rs.next()){
+                a = new Article();
+                markdown = rs.getString("markdown");
+                title = rs.getString("title");
+                a.setTitle(title);
+                a.setMarkdown(markdown);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return a;
+    }
+
+    @Override
+    public void articleUpdateDao(int id, String title,String markdown, String essay) {
+        String sql = "update t_article set title = ?,markdown = ?,essay = ? where id = ?";
+        String sql2 = "update t_artiDescribe set title = ?,essay = ? where = ?";
+        Connection conn = null;
+        PreparedStatement ps = null;
+        try {
+            conn = JDBCUtil.getConnection();
+            ps = conn.prepareStatement(sql);
+            ps.setString(1,title);
+            ps.setString(2,markdown);
+            ps.setString(3,essay);
+            ps.setInt(4,id);
+            ps.executeUpdate();
+            String describe = DaoUtil.delHTMLTag(essay);
+            ps = conn.prepareStatement(sql2);
+            ps.setString(1,title);
+            ps.setString(2,describe);
+            ps.setInt(3,id);
             ps.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();

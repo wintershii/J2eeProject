@@ -32,6 +32,16 @@ public class ServiceImp implements ArticleService,UserService {
         ad.articleDeleteDao(id);
     }
 
+    @Override
+    public Article markdownGetService(int id) {
+        return ad.markdownGetDao(id);
+    }
+
+    @Override
+    public void articleUpdateService(int id, String title, String markdown, String essay) {
+        ad.articleUpdateDao(id,title,markdown,essay);
+    }
+
     //登陆校验
     @Override
     public User loginCheckService(String account, String pwd) {

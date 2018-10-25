@@ -10,4 +10,6 @@ public interface ArticleDao {
     List<ArticleDescribe> articleListGetDao(int id);
     Article articleGetDao(int id);
     void articleDeleteDao(int id);
+    Article markdownGetDao(int id);
+    void articleUpdateDao(int id,String title,String markdown,String essay);
 }

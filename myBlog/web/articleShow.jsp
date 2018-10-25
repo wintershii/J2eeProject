@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="editor.md-master/css/editormd.css">
     <script language="JavaScript" src="editor.md-master/jquery-3.1.1.min.js"></script>
     <style>
-        .articleShow {position: absolute; left: 300px; right: 300px;
+        .articleShow {position: absolute; left: 300px;
             width: 800px;border: 1px outset #0a001f;}
         div,code {}
     </style>
@@ -36,13 +36,13 @@
 <body>
 <div style="text-align: center">
 <h3>${article.title}</h3>
-作者:${article.author}
+作者:<a href="<c:url value="homePage?aid=${article.aid}"/>">${article.author}</a>
 <br />
 <br />
 发布日期:<%=new SimpleDateFormat("yyyy-MM-dd").format(((Article)request.getAttribute("article")).getaDate())%>
 浏览量:${article.views}
     <c:if test="${sessionScope.user.id == article.aid}">
-    <a href="">编辑</a>
+    <a href="<c:url value="articleUpdate?id=${article.id}"/>">编辑</a>
     <a href="javascript:void(0)" id="artidelete">删除</a>
     </c:if>
 </div>
@@ -56,5 +56,8 @@
     editormd.markdownToHTML("content");
 </script>
 </body>
+</div>
+<div style="position: absolute; top: 10px;right: 20px;">
+    <a href="<c:url value="show?id=0"/>">首页</a>
 </div>
 </html>

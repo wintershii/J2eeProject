@@ -1,6 +1,5 @@
 package winter.servlet;
 
-import winter.pojo.Article;
 import winter.service.ArticleService;
 import winter.service.ServiceImp;
 
@@ -10,10 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Date;
 
-@WebServlet(name = "ArticleSubmitServlet",urlPatterns = {"/article"})
-public class ArticleSubmitServlet extends HttpServlet {
+@WebServlet(name = "AftArticleUpdateServlet",urlPatterns = {"/articleUpdate1"})
+public class AftArticleUpdateServlet extends HttpServlet {
     ArticleService as = new ServiceImp();
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -22,16 +20,13 @@ public class ArticleSubmitServlet extends HttpServlet {
         //设置响应编码格式
         resp.setContentType("text/html;charset=utf-8");
 
+        int id = Integer.parseInt(req.getParameter("id"));
         String title = req.getParameter("title");
-        String essay = req.getParameter("essay");
         String markdown = req.getParameter("markdown");
-        System.out.println(markdown);
-        String author = req.getParameter("author");
-        int aid = Integer.parseInt(req.getParameter("aid"));
-        Date date = new Date();
-        int views = 0;
-        Article article = new Article(0,title,author,aid,date,essay,markdown,views);
-        as.articleSubmitService(article);
-        resp.sendRedirect(req.getContextPath() + "/show?id=0");
+        String essay = req.getParameter("essay");
+
+        as.articleUpdateService(id,title,markdown,essay);
+
+        resp.sendRedirect(req.getContextPath() + "/articlePage?id=" + id);
     }
 }

@@ -10,4 +10,6 @@ public interface ArticleService {
     List<ArticleDescribe> articleListGetService(int id);
     Article articleGetService(int id);
     void articleDeleteService(int id);
+    Article markdownGetService(int id);
+    void articleUpdateService(int id,String title,String markdown,String essay);
 }

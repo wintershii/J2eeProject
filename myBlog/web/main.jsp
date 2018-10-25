@@ -2,6 +2,7 @@
 <%@ page import="winter.pojo.User" %>
 <%@ page import="java.text.SimpleDateFormat" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt_rt" %>
 <%--
   Created by IntelliJ IDEA.
   User: wintershii
@@ -88,7 +89,7 @@
                 <td><a href="<c:url value="articlePage?id=${a.id}"/>">${a.title}</a></td>
                 <td><a href="<c:url value="homePage?aid=${a.aid}"/>">${a.author}</a> </td>
                 <td>${a.essay}</td>
-                <td>${a.aDate}</td>
+                <td><fmt:formatDate value="${a.aDate}" pattern="yyyy-MM-dd"/></td>
                 <td>${a.views}</td>
             </tr>
         </c:forEach>

@@ -10,16 +10,26 @@ public class Article {
     private int aid;
     private Date aDate;
     private String essay;
+    private String markdown;
     private int views;
 
-    public Article(int id, String title, String author, int aid, Date aDate, String essay, int views) {
+    public Article(int id, String title, String author, int aid, Date aDate, String essay, String markdown, int views) {
         this.id = id;
         this.title = title;
         this.author = author;
         this.aid = aid;
         this.aDate = aDate;
         this.essay = essay;
+        this.markdown = markdown;
         this.views = views;
+    }
+
+    public String getMarkdown() {
+        return markdown;
+    }
+
+    public void setMarkdown(String markdown) {
+        this.markdown = markdown;
     }
 
     public Article() {
