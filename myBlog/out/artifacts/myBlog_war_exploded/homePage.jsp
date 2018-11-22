@@ -63,10 +63,10 @@
 
     <c:forEach items="${articleList}" var="a">
         <div>
-            <h2><a href="<c:url value="articlePage?id=${a.id}"/>">${a.title}</a></h2>
+            <h2><a href="<c:url value="/article/showSingle?id=${a.id}"/>">${a.title}</a></h2>
             <h4>${a.essay}</h4>
             <ul>
-                <li>作者:<a href="<c:url value="homePage?aid=${a.aid}"/>">${a.author}</a>&nbsp;&nbsp;&nbsp;</li>
+                <li>作者:<a href="<c:url value="/user/otherHome?aid=${a.aid}"/>">${a.author}</a>&nbsp;&nbsp;&nbsp;</li>
 
                 <li>发布日期:<fmt:formatDate value="${a.aDate}" pattern="yyyy-MM-dd"/>&nbsp;&nbsp;&nbsp;</li>
 

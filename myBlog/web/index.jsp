@@ -35,7 +35,7 @@
   </div>
 
 <div class="login" id="login">
-  <form method="post" action="<c:url value="login"/>">
+  <form method="post" action="<c:url value="/user/login"/>">
 
     <input type="hidden" value="0" name="id">
     账号:<input type="text" name="account" required="required">
@@ -50,7 +50,7 @@
 
     <div style="position: absolute;left: 100px;bottom: 20px">
       <ul>
-        <li><a href="<c:url value="resgister.jsp"/>">注册</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="<c:url value="/user/resgister.jsp"/>">注册</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
         <li><a href="<c:url value=""/>">忘记密码?</a></li>
       </ul>
     </div>

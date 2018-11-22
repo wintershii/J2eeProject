@@ -23,7 +23,7 @@
 </head>
 <body background="http://pic32.photophoto.cn/20140723/0008020945920117_b.jpg">
 <div class="registerBox">
-<form method="post" action="<c:url value="register"/>">
+<form method="post" action="<c:url value="/user/register"/>">
     <h2>新用户注册</h2>
     账号:<input type="text" name="account" required="required">
     <br />

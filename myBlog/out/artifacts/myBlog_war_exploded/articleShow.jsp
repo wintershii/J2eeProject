@@ -12,9 +12,9 @@
 <html>
 <head>
     <title>${article.title}</title>
-    <link type="text/css" href="editor.md-master/lib/codemirror/codemirror.min.css">
-    <link rel="stylesheet" href="editor.md-master/css/editormd.css">
-    <script language="JavaScript" src="editor.md-master/jquery-3.1.1.min.js"></script>
+    <link type="text/css" href="/editor.md-master/lib/codemirror/codemirror.min.css">
+    <link rel="stylesheet" href="/editor.md-master/css/editormd.css">
+    <script language="JavaScript" src="/editor.md-master/jquery-3.1.1.min.js"></script>
     <style>
         .articleShow {position: absolute; left: 300px;
             width: 800px;}
@@ -25,7 +25,7 @@
             $("#artidelete").click(function () {
                 var flag = window.confirm("确定要删除该文章吗?");
                 if (flag){
-                    window.top.location.href="<c:url value="articleDelete?id=${article.id}"/>";
+                    window.top.location.href="<c:url value="/article/delete?id=${article.id}"/>";
                 }
             })
         })
@@ -36,28 +36,28 @@
 <body background="http://pic32.photophoto.cn/20140723/0008020945920117_b.jpg">
 <div style="text-align: center;background: white;border-radius: 10px;width: 818px">
 <h2>${article.title}</h2>
-作者:<a href="<c:url value="homePage?aid=${article.aid}"/>">${article.author}</a>
+作者:<a href="<c:url value="user/otherHome?aid=${article.aid}"/>">${article.author}</a>
 <br />
 <br />
 发布日期:<%=new SimpleDateFormat("yyyy-MM-dd").format(((Article)request.getAttribute("article")).getaDate())%>
 浏览量:${article.views}
     <c:if test="${sessionScope.user.id == article.aid}">
-    <a href="<c:url value="articleUpdate?id=${article.id}"/>">编辑</a>
+    <a href="<c:url value="/article/preUpdate?id=${article.id}"/>">编辑</a>
     <a href="javascript:void(0)" id="artidelete">删除</a>
     </c:if>
 </div>
 <br />
-<div class="editormd-html-textarea" id="content" style="align-content: left;padding: 10px;">${article.essay}</div>
-<script src="editor.md-master/jquery-3.1.1.min.js"></script>
-<script src="editor.md-master/lib/marked.min.js"></script>
-<script src="editor.md-master/lib/prettify.min.js"></script>
-<script src="editor.md-master/editormd.min.js"></script>
+<div class="/editormd-html-textarea" id="content" style="align-content: left;padding: 10px;">${article.essay}</div>
+<script src="/editor.md-master/jquery-3.1.1.min.js"></script>
+<script src="/editor.md-master/lib/marked.min.js"></script>
+<script src="/editor.md-master/lib/prettify.min.js"></script>
+<script src="/editor.md-master/editormd.min.js"></script>
 <script type="text/javascript">
     editormd.markdownToHTML("content");
 </script>
 </body>
 </div>
 <div style="position: absolute; top: 10px;right: 20px;">
-    <a href="<c:url value="show?id=0"/>">首页</a>
+    <a href="<c:url value="/article/showList?id=0"/>">首页</a>
 </div>
 </html>

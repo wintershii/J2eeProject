@@ -25,7 +25,7 @@
 </head>
 <body background="http://pic32.photophoto.cn/20140723/0008020945920117_b.jpg">
 <div class="updateBody">
-<form action="<c:url value="update1"/>" method="post">
+<form action="<c:url value="/user/update"/>" method="post">
     <input type="hidden" value="${sessionScope.user.id}" name="id">
     账号:${sessionScope.user.account}
     <br />

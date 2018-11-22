@@ -12,10 +12,10 @@
 <head>
     <meta charset="utf-8">
     <title>编辑文章</title>
-    <link type="text/css" href="editor.md-master/lib/codemirror/codemirror.min.css">
-    <script type="text/javascript" src="editor.md-master/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="editor.md-master/editormd.min.js"></script>
-    <link rel="stylesheet" href="editor.md-master/css/editormd.css">
+    <link type="text/css" href="/editor.md-master/lib/codemirror/codemirror.min.css">
+    <script type="text/javascript" src="/editor.md-master/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/editor.md-master/editormd.min.js"></script>
+    <link rel="stylesheet" href="/editor.md-master/css/editormd.css">
     <style>
         .sub{width:140px;height:36px;line-height:18px;font-size:18px;
             position: absolute;right: 200px; top:25px;
@@ -27,7 +27,7 @@
 </head>
 
 <body background="http://pic32.photophoto.cn/20140723/0008020945920117_b.jpg">
-<form method="post" action="<c:url value="articleUpdate1"/>">
+<form method="post" action="<c:url value="/article/postUpdate"/>">
     <h2 class= "title">标题:<input type="text" name="title" style="width: 400px;height: 30px;" required="required" value="${title}"></h2>
     <input type="hidden" name="id" value="${id}">
     <div class="editormd" id="test-editormd" style="top: 70px">
@@ -48,7 +48,7 @@
             height  : 640,
             syncScrolling : "single",
             //你的lib目录的路径，我这边用JSP做测试的
-            path    : "editor.md-master/lib/",
+            path    : "/editor.md-master/lib/",
             //这个配置在simple.html中并没有，但是为了能够提交表单，使用这个配置可以让构造出来的HTML代码直接在第二个隐藏的textarea域中，方便post提交表单。
             saveHTMLToTextarea : true
         });
