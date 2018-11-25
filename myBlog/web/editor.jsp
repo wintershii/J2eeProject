@@ -49,9 +49,24 @@
             //你的lib目录的路径，我这边用JSP做测试的
             path    : "/editor.md-master/lib/",
             //这个配置在simple.html中并没有，但是为了能够提交表单，使用这个配置可以让构造出来的HTML代码直接在第二个隐藏的textarea域中，方便post提交表单。
-            saveHTMLToTextarea : true
+            saveHTMLToTextarea : true,
+            imageUpload : true,
+            imageFormats : ["jpg", "jpeg", "gif", "png", "bmp", "webp"],
+            imageUploadURL : "/article/uploadFile",
         });
+
     });
+
+
+    //editor.md期望得到一个json格式的上传后的返回值，格式是这样的：
+    /*
+    {
+        success : 0 | 1,           // 0 表示上传失败，1 表示上传成功
+        message : "提示的信息，上传成功或上传失败及错误信息等。",
+        url     : "图片地址"        // 上传成功时才返回
+    }
+    */
+
 </script>
 </body>
 </html>

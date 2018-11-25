@@ -50,7 +50,7 @@
 
     <div style="position: absolute;left: 100px;bottom: 20px">
       <ul>
-        <li><a href="<c:url value="/user/resgister.jsp"/>">注册</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="<c:url value="/resgister.jsp"/>">注册</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
         <li><a href="<c:url value=""/>">忘记密码?</a></li>
       </ul>
     </div>

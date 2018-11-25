@@ -1,5 +1,9 @@
 package winter.servlet;
 
+import org.apache.commons.fileupload.FileItem;
+import org.apache.commons.fileupload.FileUploadException;
+import org.apache.commons.fileupload.disk.DiskFileItemFactory;
+import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.log4j.Logger;
 import winter.pojo.Article;
 import winter.pojo.ArticleDescribe;
@@ -11,12 +15,11 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import java.io.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @WebServlet(name = "ArticleServlet",urlPatterns = {"/article/*"})
 public class ArticleServlet extends HttpServlet {
@@ -28,6 +31,7 @@ public class ArticleServlet extends HttpServlet {
         String urlPattern = req.getRequestURI();
         String[] url = urlPattern.split("/");
         String methodName = url[2];
+        UUID uuid = UUID.randomUUID();
 
         try {
             //利用反射获取url要调用的方法名
@@ -173,6 +177,51 @@ public class ArticleServlet extends HttpServlet {
         as.articleUpdateService(id,title,markdown,essay);
 
         resp.sendRedirect(req.getContextPath() + "/article/showSingle?id=" + id);
+    }
+
+    public void uploadFile(HttpServletRequest req, HttpServletResponse resp) throws IOException, FileUploadException {
+        req.setCharacterEncoding("utf-8");
+        resp.setContentType("text/html;charset=utf-8");
+        String rootPath = req.getSession().getServletContext().getRealPath("/web/image");
+
+        File filePath = new File(rootPath);
+        if (!filePath.exists()) {
+            filePath.mkdirs();
+        }
+
+        DiskFileItemFactory factory = new DiskFileItemFactory();
+        ServletFileUpload upload = new ServletFileUpload(factory);
+        List items = null;
+        items = upload.parseRequest(req);
+        Iterator iter = items.iterator();
+        while (iter.hasNext()) {
+            FileItem item = (FileItem)iter.next();
+            if (item.isFormField()) {
+                String fieldName = item.getFieldName();
+                String value = item.getString();
+                req.setAttribute(fieldName,value);
+            } else {
+                StringBuilder fileName = new StringBuilder(item.getName());
+                fileName.insert(fileName.indexOf("."),req.getParameter("guid"));
+                fileName.insert(fileName.indexOf("."),System.currentTimeMillis());
+                System.out.println(fileName);
+
+                File image = new File(rootPath,new String(fileName));
+
+                InputStream is = item.getInputStream();
+                OutputStream os = new FileOutputStream(image);
+                byte[] buf = new byte[1024];
+                int read;
+                while ((read = is.read(buf)) > 0) {
+                    os.write(buf,0,read);
+                }
+                int endIndex = req.getRequestURL().length() - req.getPathInfo().length() - 8;
+                String url = req.getRequestURL().substring(0, endIndex);
+
+                resp.getWriter().write( "{\"success\": 1, \"message\":\"上传成功\",\"url\":\""+ url + req.getSession().getServletContext().getContextPath()+"/web/image/" + image.getName() + "\"}" );
+            }
+        }
+
     }
 
 

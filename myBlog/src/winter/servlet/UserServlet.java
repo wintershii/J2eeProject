@@ -1,6 +1,8 @@
 package winter.servlet;
 
 import org.apache.log4j.Logger;
+import sun.misc.BASE64Encoder;
+import sun.security.provider.MD5;
 import winter.pojo.User;
 import winter.service.ArticleService;
 import winter.service.ServiceImp;
@@ -13,8 +15,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -59,7 +65,11 @@ public class UserServlet extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");
         //获取账户用户名与密码
         String account = req.getParameter("account");
-        String pwd = req.getParameter("pwd");
+
+        String pwdReal = req.getParameter("pwd");
+
+        String pwd = encodingByMd5(pwdReal);
+
         //调用服务层方法，返回用户对象
         User u = us.loginCheckService(account,pwd);
         if (u != null){
@@ -92,7 +102,8 @@ public class UserServlet extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");
 
         String account = req.getParameter("account");
-        String pwd = req.getParameter("pwd");
+        String pwdReal = req.getParameter("pwd");
+        String pwd = encodingByMd5(pwdReal);
         String name = req.getParameter("name");
         int sex = Integer.parseInt(req.getParameter("sex"));
         String birth = req.getParameter("birth");
@@ -177,6 +188,26 @@ public class UserServlet extends HttpServlet {
         req.setAttribute("user",u);
         req.getRequestDispatcher("/article/showList?id=" + u.getId() + "&other=1").forward(req,resp);
     }
+
+    /**
+     * 用MD5对密码进行加密
+     * @param pwdReal
+     * @return
+     */
+    private String encodingByMd5(String pwdReal) {
+        byte[] secretBytes = null;
+        try {
+
+            secretBytes = MessageDigest.getInstance("MD5").digest(pwdReal.getBytes());
+
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        String md5code = new BigInteger(1,secretBytes).toString(16);
+        String pwd = md5code.substring(0,16);
+        return pwd;
+    }
+
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

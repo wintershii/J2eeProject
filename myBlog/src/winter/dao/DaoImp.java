@@ -52,6 +52,8 @@ public class DaoImp implements ArticleDao,UserDao{
                 id = rs.getInt("id");
                 articleDescribeDao(id,article);
             }
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -98,6 +100,9 @@ public class DaoImp implements ArticleDao,UserDao{
                     list.add(ad);
                 }
             }
+            rs.close();
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -146,6 +151,8 @@ public class DaoImp implements ArticleDao,UserDao{
             ps.setInt(1,views);
             ps.setInt(2,id);
             ps.executeUpdate();
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -168,6 +175,8 @@ public class DaoImp implements ArticleDao,UserDao{
             ps = conn.prepareStatement(sql2);
             ps.setInt(1,id);
             ps.executeUpdate();
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -194,6 +203,8 @@ public class DaoImp implements ArticleDao,UserDao{
                 a.setTitle(title);
                 a.setMarkdown(markdown);
             }
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -203,7 +214,7 @@ public class DaoImp implements ArticleDao,UserDao{
     @Override
     public void articleUpdateDao(int id, String title,String markdown, String essay) {
         String sql = "update t_article set title = ?,markdown = ?,essay = ? where id = ?";
-        String sql2 = "update t_artiDescribe set title = ?,essay = ? where = ?";
+        String sql2 = "update t_artiDescribe set title = ?,essay = ? where id = ?";
         Connection conn = null;
         PreparedStatement ps = null;
         try {
@@ -220,6 +231,8 @@ public class DaoImp implements ArticleDao,UserDao{
             ps.setString(2,describe);
             ps.setInt(3,id);
             ps.executeUpdate();
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -240,6 +253,8 @@ public class DaoImp implements ArticleDao,UserDao{
             ps.setString(6, DaoUtil.delHTMLTag(article.getEssay()));
             ps.setInt(7,article.getViews());
             ps.executeUpdate();
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -276,6 +291,9 @@ public class DaoImp implements ArticleDao,UserDao{
                     u.setSignature(rs.getString("signature"));
                 }
             }
+            rs.close();
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -299,6 +317,8 @@ public class DaoImp implements ArticleDao,UserDao{
             ps.setString(5,birth);
             ps.setString(6,signature);
             ps.executeUpdate();
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -320,6 +340,8 @@ public class DaoImp implements ArticleDao,UserDao{
             ps.setString(4,signature);
             ps.setInt(5,id);
             ps.executeUpdate();
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -354,6 +376,9 @@ public class DaoImp implements ArticleDao,UserDao{
                     u.setSignature(rs.getString("signature"));
                 }
             }
+            rs.close();
+            ps.close();
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
